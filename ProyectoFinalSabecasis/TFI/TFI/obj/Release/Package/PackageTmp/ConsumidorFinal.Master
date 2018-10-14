@@ -1,0 +1,24 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="ConsumidorFinal.master.vb" Inherits="TFI.ConsumidorFinal" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/static/ConsumidorFinal.css" rel="stylesheet" />
+    <script src="/scripts/multiidioma.js"></script>
+
+</head>
+<body>
+   
+    <form id="form1" runat="server">
+        <asp:scriptmanager runat="server" EnablePageMethods="true">   
+         </asp:scriptmanager>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\bin\Release\Modelo.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\bin\Release\Modelo.pdb
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\bin\Release\Modelo.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\obj\Release\Modelo.Resources.resources
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\obj\Release\Modelo.vbproj.GenerateResource.Cache
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\obj\Release\Modelo.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\obj\Release\Modelo.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Modelo\obj\Release\Modelo.pdb

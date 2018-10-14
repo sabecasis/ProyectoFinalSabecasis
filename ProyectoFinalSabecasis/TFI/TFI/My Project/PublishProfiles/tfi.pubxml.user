@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Debug</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20RsSsRXpkCU8WWsXxJkWgAAAAACAAAAAAAQZgAAAAEAACAAAACJVTmAA8AGM2LmaZE+7VHQ6wHVHzlGWriVbIPtGs3P2gAAAAAOgAAAAAIAACAAAAA/CJsrSPzwC669zFn7+06s50DTzj/r3EkbanYkvZFsiSAAAADr4mAYZLtgIAjBMb6jaoLT14V+WA3aYo22pe687seGmUAAAACubIpUPoJBqRNYjk5kzJxiz2wTctRPcDX8NslMPWwNTOrkRW4mI/zwfKSBHmMxrbWf/fvb07QHNIooQBP7mcat</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/admin.Master">
+      <publishTime>11/17/2015 03:00:40</publishTime>
+    </File>
+    <File Include="Admin/AdministrarArticuloSoporte.aspx">
+      <publishTime>11/17/2015 02:47:24</publishTime>
+    </File>
+    <File Include="Admin/AdministrarBackup.aspx">
+      <publishTime>11/03/2015 08:20:51</publishTime>
+    </File>
+    <File Include="Admin/AdministrarElementos.aspx">
+      <publishTime>11/16/2015 17:58:47</publishTime>
+    </File>
+    <File Include="Admin/AdministrarFamiliaDeProducto.aspx">
+      <publishTime>10/17/2015 19:40:56</publishTime>
+    </File>
+    <File Include="Admin/AdministrarIdiomas.aspx">
+      <publishTime>10/04/2015 17:51:22</publishTime>
+    </File>
+    <File Include="Admin/AdministrarNovedades.aspx">
+      <publishTime>11/17/2015 01:51:49</publishTime>
+    </File>
+    <File Include="Admin/AdministrarOfertasPersonales.aspx">
+      <publishTime>11/16/2015 21:26:47</publishTime>
+    </File>
+    <File Include="Admin/AdministrarPermisos.aspx">
+      <publishTime>09/28/2015 23:47:19</publishTime>
+    </File>
+    <File Include="Admin/AdministrarProductos.aspx">
+      <publishTime>10/20/2015 07:48:40</publishTime>
+    </File>
+    <File Include="Admin/AdministrarRoles.aspx">
+      <publishTime>09/28/2015 23:33:58</publishTime>
+    </File>
+    <File Include="Admin/AdministrarSeguridad.aspx">
+      <publishTime>11/17/2015 15:36:10</publishTime>
+    </File>
+    <File Include="Admin/AdministrarSucursales.aspx">
+      <publishTime>10/19/2015 21:57:16</publishTime>
+    </File>
+    <File Include="Admin/AdministrarTiposDeGarantia.aspx">
+      <publishTime>10/17/2015 16:35:43</publishTime>
+    </File>
+    <File Include="Admin/AdministrarUsuarios.aspx">
+      <publishTime>09/28/2015 23:34:59</publishTime>
+    </File>
+    <File Include="Admin/BitacoraDeUsuario.aspx">
+      <publishTime>09/28/2015 23:43:50</publishTime>
+    </File>
+    <File Include="Admin/CargarEncuestasCliente.aspx">
+      <publishTime>11/03/2015 05:38:09</publishTime>
+    </File>
+    <File Include="Admin/ChatConCliente.aspx">
+      <publishTime>11/15/2015 13:30:03</publishTime>
+    </File>
+    <File Include="Admin/EgresoDeStock.aspx">
+      <publishTime>11/05/2015 21:09:52</publishTime>
+    </File>
+    <File Include="Admin/EstadisticasDeEncuestas.aspx">
+      <publishTime>11/16/2015 08:35:58</publishTime>
+    </File>
+    <File Include="Admin/EstadisticasDeFichas.aspx">
+      <publishTime>11/16/2015 08:36:47</publishTime>
+    </File>
+    <File Include="Admin/EstadisticasDeGanancias.aspx">
+      <publishTime>11/16/2015 14:12:59</publishTime>
+    </File>
+    <File Include="Admin/IngresoDeStock.aspx">
+      <publishTime>11/04/2015 14:12:22</publishTime>
+    </File>
+    <File Include="Admin/PreguntaDeEncuesta.aspx">
+      <publishTime>11/03/2015 05:32:16</publishTime>
+    </File>
+    <File Include="Admin/SolicitudDeStock.aspx">
+      <publishTime>11/01/2015 14:51:06</publishTime>
+    </File>
+    <File Include="Admin/SugerenciasDeStock.aspx">
+      <publishTime>11/16/2015 18:41:39</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>11/29/2015 00:18:50</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>11/29/2015 00:18:50</publishTime>
+    </File>
+    <File Include="bin/Datos.dll">
+      <publishTime>11/29/2015 15:46:51</publishTime>
+    </File>
+    <File Include="bin/Datos.pdb">
+      <publishTime>11/29/2015 15:46:51</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/log.txt">
+      <publishTime>10/12/2015 20:02:45</publishTime>
+    </File>
+    <File Include="bin/Modelo.dll">
+      <publishTime>11/17/2015 02:43:58</publishTime>
+    </File>
+    <File Include="bin/Modelo.pdb">
+      <publishTime>11/17/2015 02:43:58</publishTime>
+    </File>
+    <File Include="bin/Negocio.dll">
+      <publishTime>11/29/2015 15:46:51</publishTime>
+    </File>
+    <File Include="bin/Negocio.pdb">
+      <publishTime>11/29/2015 15:46:51</publishTime>
+    </File>
+    <File Include="bin/Seguridad.dll">
+      <publishTime>11/29/2015 15:46:50</publishTime>
+    </File>
+    <File Include="bin/Seguridad.pdb">
+      <publishTime>11/29/2015 15:46:50</publishTime>
+    </File>
+    <File Include="bin/TFI.dll">
+      <publishTime>11/29/2015 17:35:18</publishTime>
+    </File>
+    <File Include="bin/TFI.pdb">
+      <publishTime>11/29/2015 17:35:18</publishTime>
+    </File>
+    <File Include="bin/TFI.xml">
+      <publishTime>11/29/2015 17:35:18</publishTime>
+    </File>
+    <File Include="bin/Web.config">
+      <publishTime>11/29/2015 17:38:49</publishTime>
+    </File>
+    <File Include="bin/Web.Debug.config">
+      <publishTime>08/17/2015 16:42:25</publishTime>
+    </File>
+    <File Include="bin/Web.Release.config">
+      <publishTime>08/17/2015 16:42:26</publishTime>
+    </File>
+    <File Include="Cliente/Activar.aspx">
+      <publishTime>09/21/2015 19:45:35</publishTime>
+    </File>
+    <File Include="Cliente/Ayuda.aspx">
+      <publishTime>11/17/2015 02:56:22</publishTime>
+    </File>
+    <File Include="Cliente/BusquedaFormulario.aspx">
+      <publishTime>11/10/2015 00:20:41</publishTime>
+    </File>
+    <File Include="Cliente/CambiarPassword.aspx">
+      <publishTime>09/28/2015 23:45:30</publishTime>
+    </File>
+    <File Include="Cliente/Catalogo.aspx">
+      <publishTime>11/17/2015 03:18:42</publishTime>
+    </File>
+    <File Include="Cliente/CerrarSesion.aspx">
+      <publishTime>09/21/2015 09:59:15</publishTime>
+    </File>
+    <File Include="Cliente/ChatDeSoporteAlCliente.aspx">
+      <publishTime>11/15/2015 10:59:28</publishTime>
+    </File>
+    <File Include="Cliente/Checkout.aspx">
+      <publishTime>11/16/2015 15:22:13</publishTime>
+    </File>
+    <File Include="Cliente/ConfirmacionDeOrden.aspx">
+      <publishTime>11/16/2015 15:15:00</publishTime>
+    </File>
+    <File Include="Cliente/DetalleDeProducto.aspx">
+      <publishTime>11/15/2015 21:18:18</publishTime>
+    </File>
+    <File Include="Cliente/EncuestasCliente.aspx">
+      <publishTime>11/02/2015 00:03:13</publishTime>
+    </File>
+    <File Include="Cliente/EstadoDeCuenta.aspx">
+      <publishTime>11/15/2015 23:04:10</publishTime>
+    </File>
+    <File Include="Cliente/FichasDeOpinion.aspx">
+      <publishTime>11/16/2015 15:14:19</publishTime>
+    </File>
+    <File Include="Cliente/FormularioDeSoporte.aspx">
+      <publishTime>11/10/2015 08:35:22</publishTime>
+    </File>
+    <File Include="Cliente/IniciarSesion.aspx">
+      <publishTime>11/09/2015 23:28:45</publishTime>
+    </File>
+    <File Include="Cliente/Inicio.aspx">
+      <publishTime>11/29/2015 17:35:16</publishTime>
+    </File>
+    <File Include="Cliente/MensajeDeRegistro.aspx">
+      <publishTime>09/20/2015 23:31:56</publishTime>
+    </File>
+    <File Include="Cliente/MetodoDeEnvio.aspx">
+      <publishTime>11/17/2015 03:33:27</publishTime>
+    </File>
+    <File Include="Cliente/ModuloDeCliente.aspx">
+      <publishTime>11/14/2015 13:49:09</publishTime>
+    </File>
+    <File Include="Cliente/NoPermitido.aspx">
+      <publishTime>09/22/2015 14:18:19</publishTime>
+    </File>
+    <File Include="Cliente/Novedades.aspx">
+      <publishTime>11/17/2015 02:04:50</publishTime>
+    </File>
+    <File Include="Cliente/OfertasPersonalizadas.aspx">
+      <publishTime>11/16/2015 21:44:07</publishTime>
+    </File>
+    <File Include="Cliente/PagoDeOrden.aspx">
+      <publishTime>11/15/2015 21:16:50</publishTime>
+    </File>
+    <File Include="Cliente/PoliticasDeSeguridad.aspx">
+      <publishTime>11/03/2015 14:07:32</publishTime>
+    </File>
+    <File Include="Cliente/RecuperarPassword.aspx">
+      <publishTime>09/28/2015 23:46:46</publishTime>
+    </File>
+    <File Include="Cliente/Registrarse.aspx">
+      <publishTime>10/04/2015 17:51:04</publishTime>
+    </File>
+    <File Include="CommonService.asmx">
+      <publishTime>09/20/2015 17:29:20</publishTime>
+    </File>
+    <File Include="ConsumidorFinal.Master">
+      <publishTime>11/28/2015 01:38:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/02/2015 01:12:20</publishTime>
+    </File>
+    <File Include="log.txt">
+      <publishTime>10/12/2015 20:02:45</publishTime>
+    </File>
+    <File Include="scripts/abmscripts.js">
+      <publishTime>09/20/2015 22:15:47</publishTime>
+    </File>
+    <File Include="scripts/agency.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.min.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/cbpAnimatedHeader.min.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/classie.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/encuestas.js">
+      <publishTime>11/29/2015 15:51:01</publishTime>
+    </File>
+    <File Include="scripts/jqBootstrapValidation.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/jquery-2.1.4.min.js">
+      <publishTime>09/22/2015 11:28:32</publishTime>
+    </File>
+    <File Include="scripts/jquery-ui.min.js">
+      <publishTime>09/22/2015 14:38:56</publishTime>
+    </File>
+    <File Include="scripts/jquery.js">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="scripts/morris.min.js">
+      <publishTime>11/29/2015 16:51:52</publishTime>
+    </File>
+    <File Include="scripts/multiidioma.js">
+      <publishTime>11/28/2015 11:59:31</publishTime>
+    </File>
+    <File Include="scripts/Principal.js">
+      <publishTime>11/29/2015 17:35:08</publishTime>
+    </File>
+    <File Include="scripts/raphael.min.js">
+      <publishTime>11/29/2015 17:05:02</publishTime>
+    </File>
+    <File Include="static/abrir.jpg">
+      <publishTime>10/20/2015 07:23:09</publishTime>
+    </File>
+    <File Include="static/Admin.css">
+      <publishTime>11/29/2015 12:17:00</publishTime>
+    </File>
+    <File Include="static/ajax-loader.gif">
+      <publishTime>11/14/2015 20:54:50</publishTime>
+    </File>
+    <File Include="static/bootstrap.min.css">
+      <publishTime>04/20/2015 21:58:54</publishTime>
+    </File>
+    <File Include="static/buenos-aires.jpg">
+      <publishTime>11/28/2015 18:08:30</publishTime>
+    </File>
+    <File Include="static/comunidad.jpg">
+      <publishTime>11/28/2015 19:04:03</publishTime>
+    </File>
+    <File Include="static/ConsumidorFinal.css">
+      <publishTime>11/29/2015 12:16:47</publishTime>
+    </File>
+    <File Include="static/fondo 3.jpg">
+      <publishTime>11/09/2015 23:59:38</publishTime>
+    </File>
+    <File Include="static/fondo 5.jpg">
+      <publishTime>11/09/2015 21:43:25</publishTime>
+    </File>
+    <File Include="static/fondo.jpg">
+      <publishTime>11/09/2015 21:35:59</publishTime>
+    </File>
+    <File Include="static/fondo11.jpg">
+      <publishTime>11/15/2015 13:53:38</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/css/font-awesome.css">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/css/font-awesome.min.css">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/fontawesome-webfont.eot">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/fontawesome-webfont.svg">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/fontawesome-webfont.woff">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/fonts/FontAwesome.otf">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/HELP-US-OUT.txt">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/animated.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/bordered-pulled.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/core.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/fixed-width.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/font-awesome.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/icons.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/larger.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/list.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/mixins.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/path.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/rotated-flipped.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/stacked.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/less/variables.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/font-awesome.scss">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_animated.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_bordered-pulled.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_core.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_fixed-width.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_icons.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_larger.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_list.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_mixins.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_path.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_rotated-flipped.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_stacked.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome-4.5.0/scss/_variables.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/css/font-awesome.css">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/HELP-US-OUT.txt">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/animated.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/bordered-pulled.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/core.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/fixed-width.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/font-awesome.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/icons.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/larger.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/list.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/mixins.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/path.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/rotated-flipped.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/stacked.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/less/variables.less">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/font-awesome.scss">
+      <publishTime>11/29/2015 00:27:04</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_animated.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_core.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_fixed-width.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_icons.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_larger.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_list.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_mixins.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_path.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_stacked.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/font-awesome/scss/_variables.scss">
+      <publishTime>11/29/2015 00:27:05</publishTime>
+    </File>
+    <File Include="static/jquery-ui.css">
+      <publishTime>09/22/2015 11:39:04</publishTime>
+    </File>
+    <File Include="static/logotipo-trans.png">
+      <publishTime>11/28/2015 02:08:16</publishTime>
+    </File>
+    <File Include="static/musico.jpg">
+      <publishTime>11/28/2015 18:18:48</publishTime>
+    </File>
+    <File Include="static/Principal.css">
+      <publishTime>11/29/2015 17:20:55</publishTime>
+    </File>
+    <File Include="static/productos.jpg">
+      <publishTime>11/28/2015 18:41:45</publishTime>
+    </File>
+    <File Include="static/vision.jpg">
+      <publishTime>11/28/2015 18:27:25</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2015 17:38:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

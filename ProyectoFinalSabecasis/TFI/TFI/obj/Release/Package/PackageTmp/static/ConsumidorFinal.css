@@ -1,0 +1,304 @@
+﻿body{
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+#logo{
+    width:175px;
+    height:80px;
+    display:inline-block;
+}
+
+.checkout-product-table {
+   background-color:#ffd800;
+}
+
+.modal-dooba h3 {
+    color:#73109b;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.modal-dooba h4 {
+    color:#73109b;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.dooba-img {
+    width:200px;
+    height:33px;
+}
+
+
+
+.modal-recuperar-pass {
+    padding:20px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+  background-color:#fff;
+
+}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 60px auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+
+.modal-idioma {
+    padding:20px;
+}
+
+.modal-dooba {
+    border:solid;
+    border-width:4px;
+    border-color:#0aad5d;
+    background-color:#f5f2f2;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#navegacion {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0 auto;
+    background: linear-gradient(#534f4f, #5b5959, #534f4f);
+    border-bottom:solid;
+    border-bottom-color:#808080;
+    border-bottom-width:3px;
+    border-top:solid;
+    border-top-color:#808080;
+    border-top-width:3px;
+}
+
+#navegacion ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navegacion ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#navegacion ul li a {
+	float: left;
+	display: block;
+	height: 35px;
+	margin-right: 3px;
+	padding: 0 20px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 10px;
+	text-decoration: none;
+	color: #dddbd5;	
+	font-weight: bold;
+	outline: none;
+}
+
+#navegacion li a:hover, #navegacion li .current {
+	color: #dddbd5;
+    background-color:#09323d;
+}
+
+.limpiador{padding:0; border-style:none; clear:both; }
+
+aside{
+    display:inline-block;
+    width:200px;
+    height:100%;
+    top:151px;
+    background: linear-gradient(#808080, white);
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:860;
+    visibility:hidden;
+}
+
+.mensaje-respuesta-contacto {
+    color:#85f144;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color:black;
+}
+
+#background{
+    position:fixed;
+    z-index:-1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%
+}
+
+#background-catalogo{
+    position:fixed;
+    z-index:-1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%
+}
+
+#background img{
+    width:100%;
+    z-index:0;
+}
+
+#background-catalogo img{
+    width:60%;
+    z-index:0;
+}
+
+#menuHorizontal{
+    margin-left:20px;
+    vertical-align:central;
+}
+
+
+#contenidoCabecera{
+   position:fixed;
+    width:100%;
+    height:151px;
+    background-color:white;
+    z-index:900;
+    top:0;
+}
+
+#cabecera{
+    width:100%;
+    height:75px;
+    outline-offset:0px;
+    padding:0px;
+    margin-bottom:20px;
+}
+
+#contenedor {
+    width:550px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:left;
+    margin: 0 auto;
+    margin-top:100px;
+    background: linear-gradient(#dddbd5,#ffffff);
+    display:block;
+    overflow:auto;
+    position:absolute;
+    left:370px;
+    opacity:0.95;
+    z-index:-1;
+    border-radius:10px;
+}
+
+#contenedor span{
+    color:black;
+    text-align:left;
+    font-weight:bold;
+}
+
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:400px;
+    font-size:36px;
+    color:#5975e0;
+}
+
+#grupo1{
+    float:right;
+    height:inherit;
+}
+
+#contenedorIdioma{
+    display:inline-block;
+    margin-left:10px;
+    padding-left:20px;
+}
+
+#contenedorBusqueda{
+    display:inline-block;
+    margin-left:10px;
+    padding-left:20px;
+}
+
+#idiomadiv{
+    display:inline-block;
+    vertical-align:bottom;
+    margin-top:20px;
+    margin-left:10px;
+    font-family:Arial;
+    font-size:11px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#disclaimer{
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+				position: absolute;				
+				background-color: #64a4e9;
+				color: black;
+				/*opacity: .4;
+				filter: alpha(opacity = 50);*/
+                padding:40px;
+                overflow-y:scroll;
+}
+
+
+
+#hterminos{
+    color:black;
+}
+
+img[id^=imgprod] {
+width:200px;
+height:200px;
+border:none;
+
+}
+
+input[id^=cantidad] {
+width:20px;
+}
+
+.thumbnail p {
+    margin:1px;
+}
+
+.datos-producto {
+    font-style:italic;
+    font-weight:200;
+}
+

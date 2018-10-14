@@ -1,0 +1,47 @@
+D:\Documents\TFI\Servicios\bin\NegocioYServicios.dll.config
+D:\Documents\TFI\Servicios\bin\NegocioYServicios.dll
+D:\Documents\TFI\Servicios\bin\NegocioYServicios.pdb
+D:\Documents\TFI\Servicios\bin\NegocioYServicios.xml
+D:\Documents\TFI\Servicios\bin\Datos.dll
+D:\Documents\TFI\Servicios\bin\Modelo.dll
+D:\Documents\TFI\Servicios\bin\Seguridad.dll
+D:\Documents\TFI\Servicios\bin\DAL.dll
+D:\Documents\TFI\Servicios\bin\Datos.pdb
+D:\Documents\TFI\Servicios\bin\Datos.xml
+D:\Documents\TFI\Servicios\bin\Modelo.pdb
+D:\Documents\TFI\Servicios\bin\Modelo.xml
+D:\Documents\TFI\Servicios\bin\Seguridad.pdb
+D:\Documents\TFI\Servicios\bin\Seguridad.xml
+D:\Documents\TFI\Servicios\bin\DAL.pdb
+D:\Documents\TFI\Servicios\bin\DAL.xml
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.vbprojResolveAssemblyReference.cache
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.Resources.resources
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.vbproj.GenerateResource.Cache
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.dll
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.xml
+D:\Documents\TFI\Servicios\obj\Debug\NegocioYServicios.pdb
+D:\TFI\Servicios\bin\NegocioYServicios.dll.config
+D:\TFI\Servicios\bin\NegocioYServicios.dll
+D:\TFI\Servicios\bin\NegocioYServicios.pdb
+D:\TFI\Servicios\bin\NegocioYServicios.xml
+D:\TFI\Servicios\bin\Datos.dll
+D:\TFI\Servicios\bin\Modelo.dll
+D:\TFI\Servicios\bin\Seguridad.dll
+D:\TFI\Servicios\bin\DAL.dll
+D:\TFI\Servicios\bin\Datos.pdb
+D:\TFI\Servicios\bin\Datos.xml
+D:\TFI\Servicios\bin\Modelo.pdb
+D:\TFI\Servicios\bin\Modelo.xml
+D:\TFI\Servicios\bin\Seguridad.pdb
+D:\TFI\Servicios\bin\Seguridad.xml
+D:\TFI\Servicios\bin\DAL.pdb
+D:\TFI\Servicios\bin\DAL.xml
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.vbprojResolveAssemblyReference.cache
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.Resources.resources
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.vbproj.GenerateResource.Cache
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.dll
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.xml
+D:\TFI\Servicios\obj\Debug\NegocioYServicios.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Servicios\obj\Debug\NegocioYServicios.vbprojResolveAssemblyReference.cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Servicios\obj\Debug\NegocioYServicios.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Servicios\obj\Debug\NegocioYServicios.vbproj.GenerateResource.Cache

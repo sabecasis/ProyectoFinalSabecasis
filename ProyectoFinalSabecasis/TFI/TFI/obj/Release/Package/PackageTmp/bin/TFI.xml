@@ -1,0 +1,444 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TFI
+</name>
+</assembly>
+<members>
+<member name="F:TFI.Ayuda.idUsuario">
+	<summary>
+Control idUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.Checkout.contenido">
+	<summary>
+Control contenido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.Checkout.sugerencias">
+	<summary>
+Control sugerencias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.admin.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.admin.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.admin.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.RecuperarPassword.usuarioId">
+	<summary>
+Control usuarioId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.ConfirmacionDeOrden.contenido">
+	<summary>
+contenido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.CMBSucursal">
+	<summary>
+CMBSucursal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.GraficaAnual">
+	<summary>
+GraficaAnual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.CMBAnios">
+	<summary>
+CMBAnios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.GraficaMensual">
+	<summary>
+GraficaMensual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.CMBMeses">
+	<summary>
+CMBMeses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeGanancias.GraficoDiario">
+	<summary>
+GraficoDiario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.PagoDeOrden.total">
+	<summary>
+total control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.ChatConCliente.idUsuario">
+	<summary>
+idUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.ChatConCliente.nroconsulta">
+	<summary>
+nroconsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeEncuestas.CMBPreguntas">
+	<summary>
+CMBPreguntas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeEncuestas.Grafica">
+	<summary>
+Grafica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.Catalogo.usuarioId">
+	<summary>
+Control usuarioId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.ChatDeSoporteAlCliente.idUsuario">
+	<summary>
+idUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.ChatDeSoporteAlCliente.nroconsulta">
+	<summary>
+nroconsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.Inicio.mensajeRespuesta">
+	<summary>
+Control mensajeRespuesta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.Novedades.usuarioId">
+	<summary>
+Control usuarioId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.urlanterior">
+	<summary>
+Control urlanterior.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.mansajeEnPantalla">
+	<summary>
+Control mansajeEnPantalla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.nombreusuario">
+	<summary>
+Control nombreusuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.contrasenia">
+	<summary>
+Control contrasenia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.contrasenia2">
+	<summary>
+Control contrasenia2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.CambiarPassword.loginBtn">
+	<summary>
+Control loginBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.MetodoDeEnvio.idContacto">
+	<summary>
+Control idContacto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeFichas.CMBPreguntas">
+	<summary>
+CMBPreguntas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.EstadisticasDeFichas.Grafica">
+	<summary>
+Grafica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.usuarioId">
+	<summary>
+Control usuarioId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.LblMensaje">
+	<summary>
+Control LblMensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.nombreusuario">
+	<summary>
+Control nombreusuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.contrasenia">
+	<summary>
+Control contrasenia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.loginBtn">
+	<summary>
+Control loginBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.IniciarSesion.urlanterior">
+	<summary>
+Control urlanterior.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.AdministrarArticuloSoporte.usuarioId">
+	<summary>
+Control usuarioId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.AdministrarNovedades.idUsuario">
+	<summary>
+Control idUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.ConsumidorFinal.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.ConsumidorFinal.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.ConsumidorFinal.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:TFI.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:TFI.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:TFI.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:TFI.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:TFI.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:TFI.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:TFI.EstadoDeCuenta.idUsuario">
+	<summary>
+idUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.ModuloDeCliente.idUsuario">
+	<summary>
+idUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.ModuloDeCliente.tabla">
+	<summary>
+tabla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.AdministrarOfertasPersonales.idUsuario">
+	<summary>
+Control idUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:TFI.AdministrarProductos.imagen">
+	<summary>
+imagen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.CerrarSesion.urlanterior">
+	<summary>
+urlanterior control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TFI.OfertasPersonalizadas.idUsuario">
+	<summary>
+Control idUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

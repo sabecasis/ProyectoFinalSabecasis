@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>/static/add_img/novedad_novedad1.png</ImageUrl>
+    <NavigateUrl>/Cliente/DetallesDeNovedad.aspx?id=novedad1</NavigateUrl>
+    <AlternateText></AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>novedad1</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>/static/add_img/novedad_novedad3.png</ImageUrl>
+    <NavigateUrl>/Cliente/DetallesDeNovedad.aspx?id=novedad3</NavigateUrl>
+    <AlternateText></AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>novedad3</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>/static/add_img/novedad_novedad4.png</ImageUrl>
+    <NavigateUrl>/Cliente/DetallesDeNovedad.aspx?id=novedad4</NavigateUrl>
+    <AlternateText></AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>novedad4</Keyword>
+  </Ad>
+</Advertisements>

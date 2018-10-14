@@ -1,0 +1,27 @@
+D:\TFI\DAL\bin\Debug\DAL.dll
+D:\TFI\DAL\bin\Debug\DAL.pdb
+D:\TFI\DAL\bin\Debug\DAL.xml
+D:\TFI\DAL\bin\Debug\Modelo.dll
+D:\TFI\DAL\bin\Debug\Modelo.pdb
+D:\TFI\DAL\bin\Debug\Modelo.xml
+D:\TFI\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+D:\TFI\DAL\obj\Debug\DAL.Resources.resources
+D:\TFI\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\TFI\DAL\obj\Debug\DAL.dll
+D:\TFI\DAL\obj\Debug\DAL.xml
+D:\TFI\DAL\obj\Debug\DAL.pdb
+D:\Documents\TFI\DAL\bin\Debug\DAL.dll
+D:\Documents\TFI\DAL\bin\Debug\DAL.pdb
+D:\Documents\TFI\DAL\bin\Debug\DAL.xml
+D:\Documents\TFI\DAL\bin\Debug\Modelo.dll
+D:\Documents\TFI\DAL\bin\Debug\Modelo.pdb
+D:\Documents\TFI\DAL\bin\Debug\Modelo.xml
+D:\Documents\TFI\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+D:\Documents\TFI\DAL\obj\Debug\DAL.Resources.resources
+D:\Documents\TFI\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\Documents\TFI\DAL\obj\Debug\DAL.dll
+D:\Documents\TFI\DAL\obj\Debug\DAL.xml
+D:\Documents\TFI\DAL\obj\Debug\DAL.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache

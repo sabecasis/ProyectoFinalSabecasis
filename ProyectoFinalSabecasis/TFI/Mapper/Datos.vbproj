@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02C46C8E-CF53-4A0E-9942-F35B247910DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Datos</RootNamespace>
+    <AssemblyName>Datos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Datos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Datos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractDao.vb" />
+    <Compile Include="ArticuloSoprteDao.vb" />
+    <Compile Include="BackupRestoreDao.vb" />
+    <Compile Include="CatalogoDao.vb" />
+    <Compile Include="CheckoutDao.vb" />
+    <Compile Include="ComentarioDeChatDao.vb" />
+    <Compile Include="ComentarioDeProductoDao.vb" />
+    <Compile Include="ConstantesDeMotivosDeModificacionDeStock.vb" />
+    <Compile Include="ContactoDao.vb" />
+    <Compile Include="DescuentoDao.vb" />
+    <Compile Include="DevolucionDeProductoDao.vb" />
+    <Compile Include="DisponibilidadEnStockDao.vb" />
+    <Compile Include="EgresoDeStockDao.vb" />
+    <Compile Include="ElementoDao.vb" />
+    <Compile Include="ElementoDeBitacoraDao.vb" />
+    <Compile Include="ElementoDeIdiomaDao.vb" />
+    <Compile Include="EncuestaDao.vb" />
+    <Compile Include="EnvioDao.vb" />
+    <Compile Include="ErrorLogDao.vb" />
+    <Compile Include="EstadisticaDeVentaDao.vb" />
+    <Compile Include="EstadoDao.vb" />
+    <Compile Include="EstadoDeCuentaDao.vb" />
+    <Compile Include="EventoDao.vb" />
+    <Compile Include="FacturaDao.vb" />
+    <Compile Include="FamiliaDeProductoDao.vb" />
+    <Compile Include="GarantiaDao.vb" />
+    <Compile Include="IdiomaDao.vb" />
+    <Compile Include="ImpuestoDao.vb" />
+    <Compile Include="IngresoDeStockDao.vb" />
+    <Compile Include="LocalidadDao.vb" />
+    <Compile Include="MensajeDeConsultaDao.vb" />
+    <Compile Include="MetodoDePagoDao.vb" />
+    <Compile Include="MetodoDeReposicionDao.vb" />
+    <Compile Include="MetodoValoracionDao.vb" />
+    <Compile Include="NewsletterDao.vb" />
+    <Compile Include="NotaDeCreditoDao.vb" />
+    <Compile Include="NovedadDao.vb" />
+    <Compile Include="OfertaPersonalDao.vb" />
+    <Compile Include="OpcionDeEncuestaDao.vb" />
+    <Compile Include="OrdenDao.vb" />
+    <Compile Include="OrdenEnColaDao.vb" />
+    <Compile Include="PaisDao.vb" />
+    <Compile Include="PermisoDao.vb" />
+    <Compile Include="PreguntaDeEncuestaDao.vb" />
+    <Compile Include="ProductoDao.vb" />
+    <Compile Include="ProductoEspecificoEnStockDao.vb" />
+    <Compile Include="ProvinciaDao.vb" />
+    <Compile Include="RolDao.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SesionDeChatDao.vb" />
+    <Compile Include="SesionDeChatEnColaDao.vb" />
+    <Compile Include="SolicitudDeStockDao.vb" />
+    <Compile Include="SucursalDao.vb" />
+    <Compile Include="SugerenciaDeProductoDao.vb" />
+    <Compile Include="TipoDeDocumentoDao.vb" />
+    <Compile Include="TipoDeEmailDao.vb" />
+    <Compile Include="TipoDeEncuestaDao.vb" />
+    <Compile Include="TipoDeEnvioDao.vb" />
+    <Compile Include="TipoDeGarantiaDao.vb" />
+    <Compile Include="TipoDeProductoDao.vb" />
+    <Compile Include="TipoDeTelefonoDao.vb" />
+    <Compile Include="UsuarioDao.vb" />
+    <Compile Include="ValoracionDeProductoDao.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.vbproj">
+      <Project>{c9551eb7-8ea0-4af5-9cd9-53896a270f73}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.vbproj">
+      <Project>{b4c64271-3bc4-4507-b407-08eb36327790}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.vbproj">
+      <Project>{9f7a25db-d793-45ea-830f-2fa5159cbdd5}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

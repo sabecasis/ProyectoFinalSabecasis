@@ -1,0 +1,24 @@
+D:\TFI\Modelo\bin\Debug\Modelo.dll
+D:\TFI\Modelo\bin\Debug\Modelo.pdb
+D:\TFI\Modelo\bin\Debug\Modelo.xml
+D:\TFI\Modelo\obj\Debug\Modelo.Resources.resources
+D:\TFI\Modelo\obj\Debug\Modelo.vbproj.GenerateResource.Cache
+D:\TFI\Modelo\obj\Debug\Modelo.dll
+D:\TFI\Modelo\obj\Debug\Modelo.xml
+D:\TFI\Modelo\obj\Debug\Modelo.pdb
+D:\Documents\TFI\Modelo\bin\Debug\Modelo.dll
+D:\Documents\TFI\Modelo\bin\Debug\Modelo.pdb
+D:\Documents\TFI\Modelo\bin\Debug\Modelo.xml
+D:\Documents\TFI\Modelo\obj\Debug\Modelo.Resources.resources
+D:\Documents\TFI\Modelo\obj\Debug\Modelo.vbproj.GenerateResource.Cache
+D:\Documents\TFI\Modelo\obj\Debug\Modelo.dll
+D:\Documents\TFI\Modelo\obj\Debug\Modelo.xml
+D:\Documents\TFI\Modelo\obj\Debug\Modelo.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\bin\Debug\Modelo.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\bin\Debug\Modelo.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\bin\Debug\Modelo.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\obj\Debug\Modelo.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\obj\Debug\Modelo.vbproj.GenerateResource.Cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\obj\Debug\Modelo.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\obj\Debug\Modelo.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Modelo\obj\Debug\Modelo.pdb

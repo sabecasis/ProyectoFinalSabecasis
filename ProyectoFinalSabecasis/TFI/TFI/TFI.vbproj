@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{34CDC085-4F04-4AC3-B962-61C854BF9C1F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TFI</RootNamespace>
+    <AssemblyName>TFI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TFI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TFI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.vbproj">
+      <Project>{b4c64271-3bc4-4507-b407-08eb36327790}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.vbproj">
+      <Project>{9f7a25db-d793-45ea-830f-2fa5159cbdd5}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios\NegocioYServicios.vbproj">
+      <Project>{3ac5f714-9552-4f09-8ffe-4d3330c6a612}</Project>
+      <Name>NegocioYServicios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdministrarArticuloSoporte.aspx" />
+    <Content Include="Admin\AdministrarBackup.aspx" />
+    <Content Include="Admin\AdministrarDescuentos.aspx" />
+    <Content Include="Admin\AdministrarElementos.aspx" />
+    <Content Include="Admin\AdministrarFamiliaDeProducto.aspx" />
+    <Content Include="Admin\AdministrarNotaDeCredito.aspx" />
+    <Content Include="Admin\AdministrarNovedades.aspx" />
+    <Content Include="Admin\AdministrarPermisos.aspx" />
+    <Content Include="Admin\AdministrarIdiomas.aspx" />
+    <Content Include="Admin\AdministrarProductos.aspx" />
+    <Content Include="Admin\AdministrarSucursales.aspx" />
+    <Content Include="Admin\AdministrarTiposDeGarantia.aspx" />
+    <Content Include="Admin\AdministrarUsuarios.aspx" />
+    <Content Include="Admin\AdministrarRoles.aspx" />
+    <Content Include="Admin\AdministrarDevolucionDeProductos.aspx" />
+    <Content Include="Admin\AdminitrarOrdenes.aspx" />
+    <Content Include="Admin\DetalleDeOrden.aspx" />
+    <Content Include="Admin\Inicio.aspx" />
+    <Content Include="Admin\BitacoraDeUsuario.aspx" />
+    <Content Include="Admin\CargarEncuestasCliente.aspx" />
+    <Content Include="Admin\ChatConCliente.aspx" />
+    <Content Include="Admin\EgresoDeStock.aspx" />
+    <Content Include="Admin\EstadisticasDeEncuestas.aspx" />
+    <Content Include="Admin\EstadisticasDeFichas.aspx" />
+    <Content Include="Admin\EstadisticasDeGanancias.aspx" />
+    <Content Include="Admin\IngresoDeStock.aspx" />
+    <Content Include="Admin\PreguntaDeEncuesta.aspx" />
+    <Content Include="Admin\SolicitudDeStock.aspx" />
+    <Content Include="Admin\SugerenciasDeStock.aspx" />
+    <Content Include="Cliente\Activar.aspx" />
+    <Content Include="Cliente\Ayuda.aspx" />
+    <Content Include="Cliente\BusquedaFormulario.aspx" />
+    <Content Include="Cliente\CambiarPassword.aspx" />
+    <Content Include="Cliente\Catalogo.aspx" />
+    <Content Include="Cliente\CerrarSesion.aspx" />
+    <Content Include="Cliente\ChatDeSoporteAlCliente.aspx" />
+    <Content Include="Cliente\DetalleDeProducto.aspx" />
+    <Content Include="Cliente\Checkout.aspx" />
+    <Content Include="Cliente\ConfirmacionDeOrden.aspx" />
+    <Content Include="Cliente\DetallesDeNovedad.aspx" />
+    <Content Include="Cliente\EstadoDeCuenta.aspx" />
+    <Content Include="Cliente\GestionarDistorsiones.aspx" />
+    <Content Include="Cliente\IniciarSesion.aspx" />
+    <Content Include="Cliente\logotipo-trans.png" />
+    <Content Include="Cliente\MensajeDeRegistro.aspx" />
+    <Content Include="Cliente\MetodoDeEnvio.aspx" />
+    <Content Include="Cliente\ModuloDeCliente.aspx" />
+    <Content Include="Cliente\Novedades.aspx" />
+    <Content Include="Cliente\NovedadesPublicas.aspx" />
+    <Content Include="Cliente\PagoDeOrden.aspx" />
+    <Content Include="Cliente\Perfil.aspx" />
+    <Content Include="Cliente\RecuperarPassword.aspx" />
+    <Content Include="Cliente\Registrarse.aspx" />
+    <Content Include="Cliente\Inicio.aspx" />
+    <Content Include="CommonService.asmx" />
+    <Content Include="Global.asax" />
+    <Content Include="log.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\abmscripts.js" />
+    <Content Include="scripts\catalogo.js" />
+    <Content Include="scripts\GestionarUsuarios.js" />
+    <Content Include="scripts\Principal.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\cbpAnimatedHeader.min.js" />
+    <Content Include="scripts\classie.js" />
+    <Content Include="scripts\encuestas.js" />
+    <Content Include="scripts\jqBootstrapValidation.js" />
+    <Content Include="scripts\jquery-2.1.4.min.js" />
+    <Content Include="scripts\jquery-ui.min.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\morris.min.js" />
+    <Content Include="scripts\multiidioma.js" />
+    <Content Include="scripts\raphael.min.js" />
+    <Content Include="My Project\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="My Project\DataSources\System.Xml.XmlNode.datasource" />
+    <Content Include="static\abrir.jpg" />
+    <Content Include="static\add_xml\add1_2.xml" />
+    <Content Include="static\add_xml\add_general.xml" />
+    <Content Include="static\Checkout.css" />
+    <Content Include="static\clean-blog.css" />
+    <Content Include="static\descuento.png" />
+    <Content Include="static\sidebar-front.css" />
+    <Content Include="static\font-awesome\css\bootstrap.css" />
+    <Content Include="static\font-awesome\css\bootstrap.min.css" />
+    <Content Include="static\font-awesome\css\font-awesome.css" />
+    <Content Include="static\font-awesome\css\font-awesome.min.css" />
+    <Content Include="static\font-awesome\css\shop-homepage.css" />
+    <Content Include="static\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\font-awesome\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\imagenes_de_producto\001.jpg" />
+    <Content Include="static\imagenes_de_producto\imageNotFound.gif" />
+    <Content Include="static\Preguntas.jpg" />
+    <Content Include="static\Principal.css" />
+    <Content Include="static\ajax-loader.gif" />
+    <Content Include="static\bootstrap.min.css" />
+    <Content Include="static\buenos-aires.jpg" />
+    <Content Include="static\comunidad.jpg" />
+    <Content Include="static\ConsumidorFinal.css" />
+    <Content Include="static\Admin.css" />
+    <Content Include="static\fondo 3.jpg" />
+    <Content Include="static\fondo 5.jpg" />
+    <Content Include="static\fondo.jpg" />
+    <Content Include="static\fondo11.jpg" />
+    <Content Include="static\jquery-ui.css" />
+    <Content Include="static\logotipo-trans.png" />
+    <Content Include="static\musico.jpg" />
+    <Content Include="static\product.jpg" />
+    <Content Include="static\productos.jpg" />
+    <Content Include="static\shop-homepage.css" />
+    <Content Include="static\sidebar.css" />
+    <Content Include="static\usuario.png" />
+    <Content Include="static\vision.jpg" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\admin.Master.designer.vb">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin.Master.vb">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarArticuloSoporte.aspx.designer.vb">
+      <DependentUpon>AdministrarArticuloSoporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarArticuloSoporte.aspx.vb">
+      <DependentUpon>AdministrarArticuloSoporte.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarBackup.aspx.designer.vb">
+      <DependentUpon>AdministrarBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarBackup.aspx.vb">
+      <DependentUpon>AdministrarBackup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarDescuentos.aspx.designer.vb">
+      <DependentUpon>AdministrarDescuentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarDescuentos.aspx.vb">
+      <DependentUpon>AdministrarDescuentos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarElementos.aspx.designer.vb">
+      <DependentUpon>AdministrarElementos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarElementos.aspx.vb">
+      <DependentUpon>AdministrarElementos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarFamiliaDeProducto.aspx.designer.vb">
+      <DependentUpon>AdministrarFamiliaDeProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarFamiliaDeProducto.aspx.vb">
+      <DependentUpon>AdministrarFamiliaDeProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarNotaDeCredito.aspx.designer.vb">
+      <DependentUpon>AdministrarNotaDeCredito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarNotaDeCredito.aspx.vb">
+      <DependentUpon>AdministrarNotaDeCredito.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarNovedades.aspx.designer.vb">
+      <DependentUpon>AdministrarNovedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarNovedades.aspx.vb">
+      <DependentUpon>AdministrarNovedades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarPermisos.aspx.designer.vb">
+      <DependentUpon>AdministrarPermisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarPermisos.aspx.vb">
+      <DependentUpon>AdministrarPermisos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarIdiomas.aspx.designer.vb">
+      <DependentUpon>AdministrarIdiomas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarIdiomas.aspx.vb">
+      <DependentUpon>AdministrarIdiomas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarProductos.aspx.designer.vb">
+      <DependentUpon>AdministrarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarProductos.aspx.vb">
+      <DependentUpon>AdministrarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarSucursales.aspx.designer.vb">
+      <DependentUpon>AdministrarSucursales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarSucursales.aspx.vb">
+      <DependentUpon>AdministrarSucursales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarTiposDeGarantia.aspx.designer.vb">
+      <DependentUpon>AdministrarTiposDeGarantia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarTiposDeGarantia.aspx.vb">
+      <DependentUpon>AdministrarTiposDeGarantia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarUsuarios.aspx.designer.vb">
+      <DependentUpon>AdministrarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarUsuarios.aspx.vb">
+      <DependentUpon>AdministrarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarRoles.aspx.designer.vb">
+      <DependentUpon>AdministrarRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarRoles.aspx.vb">
+      <DependentUpon>AdministrarRoles.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdministrarDevolucionDeProductos.aspx.designer.vb">
+      <DependentUpon>AdministrarDevolucionDeProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdministrarDevolucionDeProductos.aspx.vb">
+      <DependentUpon>AdministrarDevolucionDeProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminitrarOrdenes.aspx.designer.vb">
+      <DependentUpon>AdminitrarOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminitrarOrdenes.aspx.vb">
+      <DependentUpon>AdminitrarOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DetalleDeOrden.aspx.designer.vb">
+      <DependentUpon>DetalleDeOrden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DetalleDeOrden.aspx.vb">
+      <DependentUpon>DetalleDeOrden.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Inicio.aspx.designer.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Inicio.aspx.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BitacoraDeUsuario.aspx.designer.vb">
+      <DependentUpon>BitacoraDeUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BitacoraDeUsuario.aspx.vb">
+      <DependentUpon>BitacoraDeUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CargarEncuestasCliente.aspx.designer.vb">
+      <DependentUpon>CargarEncuestasCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CargarEncuestasCliente.aspx.vb">
+      <DependentUpon>CargarEncuestasCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ChatConCliente.aspx.designer.vb">
+      <DependentUpon>ChatConCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ChatConCliente.aspx.vb">
+      <DependentUpon>ChatConCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EgresoDeStock.aspx.designer.vb">
+      <DependentUpon>EgresoDeStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EgresoDeStock.aspx.vb">
+      <DependentUpon>EgresoDeStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeEncuestas.aspx.designer.vb">
+      <DependentUpon>EstadisticasDeEncuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeEncuestas.aspx.vb">
+      <DependentUpon>EstadisticasDeEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeFichas.aspx.designer.vb">
+      <DependentUpon>EstadisticasDeFichas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeFichas.aspx.vb">
+      <DependentUpon>EstadisticasDeFichas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeGanancias.aspx.designer.vb">
+      <DependentUpon>EstadisticasDeGanancias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EstadisticasDeGanancias.aspx.vb">
+      <DependentUpon>EstadisticasDeGanancias.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\IngresoDeStock.aspx.designer.vb">
+      <DependentUpon>IngresoDeStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\IngresoDeStock.aspx.vb">
+      <DependentUpon>IngresoDeStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PreguntaDeEncuesta.aspx.designer.vb">
+      <DependentUpon>PreguntaDeEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PreguntaDeEncuesta.aspx.vb">
+      <DependentUpon>PreguntaDeEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SolicitudDeStock.aspx.designer.vb">
+      <DependentUpon>SolicitudDeStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SolicitudDeStock.aspx.vb">
+      <DependentUpon>SolicitudDeStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SugerenciasDeStock.aspx.designer.vb">
+      <DependentUpon>SugerenciasDeStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SugerenciasDeStock.aspx.vb">
+      <DependentUpon>SugerenciasDeStock.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Activar.aspx.designer.vb">
+      <DependentUpon>Activar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Activar.aspx.vb">
+      <DependentUpon>Activar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Ayuda.aspx.designer.vb">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Ayuda.aspx.vb">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\BusquedaFormulario.aspx.designer.vb">
+      <DependentUpon>BusquedaFormulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\BusquedaFormulario.aspx.vb">
+      <DependentUpon>BusquedaFormulario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\CambiarPassword.aspx.designer.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CambiarPassword.aspx.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Catalogo.aspx.designer.vb">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Catalogo.aspx.vb">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\CerrarSesion.aspx.designer.vb">
+      <DependentUpon>CerrarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\CerrarSesion.aspx.vb">
+      <DependentUpon>CerrarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\ChatDeSoporteAlCliente.aspx.designer.vb">
+      <DependentUpon>ChatDeSoporteAlCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\ChatDeSoporteAlCliente.aspx.vb">
+      <DependentUpon>ChatDeSoporteAlCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\DetalleDeProducto.aspx.designer.vb">
+      <DependentUpon>DetalleDeProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\DetalleDeProducto.aspx.vb">
+      <DependentUpon>DetalleDeProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Checkout.aspx.designer.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Checkout.aspx.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\ConfirmacionDeOrden.aspx.designer.vb">
+      <DependentUpon>ConfirmacionDeOrden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\ConfirmacionDeOrden.aspx.vb">
+      <DependentUpon>ConfirmacionDeOrden.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\DetallesDeNovedad.aspx.designer.vb">
+      <DependentUpon>DetallesDeNovedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\DetallesDeNovedad.aspx.vb">
+      <DependentUpon>DetallesDeNovedad.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\EstadoDeCuenta.aspx.designer.vb">
+      <DependentUpon>EstadoDeCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\EstadoDeCuenta.aspx.vb">
+      <DependentUpon>EstadoDeCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\GestionarDistorsiones.aspx.designer.vb">
+      <DependentUpon>GestionarDistorsiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\GestionarDistorsiones.aspx.vb">
+      <DependentUpon>GestionarDistorsiones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\IniciarSesion.aspx.designer.vb">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\IniciarSesion.aspx.vb">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\MensajeDeRegistro.aspx.designer.vb">
+      <DependentUpon>MensajeDeRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\MensajeDeRegistro.aspx.vb">
+      <DependentUpon>MensajeDeRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\MetodoDeEnvio.aspx.designer.vb">
+      <DependentUpon>MetodoDeEnvio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\MetodoDeEnvio.aspx.vb">
+      <DependentUpon>MetodoDeEnvio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\ModuloDeCliente.aspx.designer.vb">
+      <DependentUpon>ModuloDeCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\ModuloDeCliente.aspx.vb">
+      <DependentUpon>ModuloDeCliente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Novedades.aspx.designer.vb">
+      <DependentUpon>Novedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Novedades.aspx.vb">
+      <DependentUpon>Novedades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\NovedadesPublicas.aspx.designer.vb">
+      <DependentUpon>NovedadesPublicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\NovedadesPublicas.aspx.vb">
+      <DependentUpon>NovedadesPublicas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\PagoDeOrden.aspx.designer.vb">
+      <DependentUpon>PagoDeOrden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\PagoDeOrden.aspx.vb">
+      <DependentUpon>PagoDeOrden.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Perfil.aspx.designer.vb">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Perfil.aspx.vb">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\RecuperarPassword.aspx.designer.vb">
+      <DependentUpon>RecuperarPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\RecuperarPassword.aspx.vb">
+      <DependentUpon>RecuperarPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Registrarse.aspx.designer.vb">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Registrarse.aspx.vb">
+      <DependentUpon>Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\Inicio.aspx.designer.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Inicio.aspx.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CommonService.asmx.vb">
+      <DependentUpon>CommonService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConsumidorFinal.Master.designer.vb">
+      <DependentUpon>ConsumidorFinal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumidorFinal.Master.vb">
+      <DependentUpon>ConsumidorFinal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConsumidorFinal.Master" />
+    <Content Include="Admin\admin.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\sabrina.pubxml" />
+    <None Include="My Project\PublishProfiles\sasa.pubxml" />
+    <None Include="My Project\PublishProfiles\tfi.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="static\font-awesome\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\font-awesome\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\font-awesome\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\font-awesome\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="static\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="static\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="static\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="static\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="static\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\add_img\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>41721</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:41721/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

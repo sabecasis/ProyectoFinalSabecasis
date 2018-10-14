@@ -1,0 +1,12 @@
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\bin\Release\DAL.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\bin\Release\DAL.pdb
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\bin\Release\DAL.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\obj\Release\DAL.Resources.resources
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\obj\Release\DAL.vbproj.GenerateResource.Cache
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\obj\Release\DAL.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\obj\Release\DAL.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\DAL\obj\Release\DAL.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\bin\Release\Modelo.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\bin\Release\Modelo.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\bin\Release\Modelo.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\DAL\obj\Release\DAL.vbprojResolveAssemblyReference.cache

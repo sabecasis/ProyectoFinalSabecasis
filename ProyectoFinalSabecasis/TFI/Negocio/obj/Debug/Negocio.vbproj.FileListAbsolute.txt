@@ -1,0 +1,44 @@
+D:\TFI\Negocio\bin\Debug\Negocio.dll
+D:\TFI\Negocio\bin\Debug\Negocio.pdb
+D:\TFI\Negocio\bin\Debug\Negocio.xml
+D:\TFI\Negocio\bin\Debug\Modelo.dll
+D:\TFI\Negocio\bin\Debug\Seguridad.dll
+D:\TFI\Negocio\bin\Debug\DAL.dll
+D:\TFI\Negocio\bin\Debug\Modelo.pdb
+D:\TFI\Negocio\bin\Debug\Modelo.xml
+D:\TFI\Negocio\bin\Debug\Seguridad.pdb
+D:\TFI\Negocio\bin\Debug\Seguridad.xml
+D:\TFI\Negocio\bin\Debug\DAL.pdb
+D:\TFI\Negocio\bin\Debug\DAL.xml
+D:\TFI\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+D:\TFI\Negocio\obj\Debug\Negocio.Resources.resources
+D:\TFI\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+D:\TFI\Negocio\obj\Debug\Negocio.dll
+D:\TFI\Negocio\obj\Debug\Negocio.xml
+D:\TFI\Negocio\obj\Debug\Negocio.pdb
+D:\TFI\Negocio\bin\Debug\Datos.dll
+D:\TFI\Negocio\bin\Debug\itextsharp.dll
+D:\TFI\Negocio\bin\Debug\Datos.pdb
+D:\TFI\Negocio\bin\Debug\Datos.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Negocio.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Datos.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\itextsharp.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Modelo.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Seguridad.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\DAL.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Datos.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Datos.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Seguridad.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Seguridad.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\DAL.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\DAL.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\obj\Debug\Negocio.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Negocio.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Negocio.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Modelo.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Negocio\bin\Debug\Modelo.xml

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TFI", "TFI\TFI.vbproj", "{34CDC085-4F04-4AC3-B962-61C854BF9C1F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{C9551EB7-8EA0-4AF5-9CD9-53896A270F73}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Datos", "Mapper\Datos.vbproj", "{02C46C8E-CF53-4A0E-9942-F35B247910DA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Modelo", "Modelo\Modelo.vbproj", "{B4C64271-3BC4-4507-B407-08EB36327790}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Seguridad", "Seguridad\Seguridad.vbproj", "{9F7A25DB-D793-45EA-830F-2FA5159CBDD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{811DDB45-BEB3-4443-ABAE-FA0100E58DAF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NegocioYServicios", "Servicios\NegocioYServicios.vbproj", "{3AC5F714-9552-4F09-8FFE-4D3330C6A612}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sabrinaabecasis.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DAL\\DAL.vbproj
+		SccProjectName1 = DAL
+		SccLocalPath1 = DAL
+		SccProjectUniqueName2 = Mapper\\Datos.vbproj
+		SccProjectName2 = Mapper
+		SccLocalPath2 = Mapper
+		SccProjectUniqueName3 = Modelo\\Modelo.vbproj
+		SccProjectName3 = Modelo
+		SccLocalPath3 = Modelo
+		SccProjectUniqueName4 = Seguridad\\Seguridad.vbproj
+		SccProjectName4 = Seguridad
+		SccLocalPath4 = Seguridad
+		SccProjectUniqueName5 = TFI\\TFI.vbproj
+		SccProjectName5 = TFI
+		SccLocalPath5 = TFI
+		SccProjectUniqueName6 = Servicios\\NegocioYServicios.vbproj
+		SccProjectName6 = Servicios
+		SccLocalPath6 = Servicios
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34CDC085-4F04-4AC3-B962-61C854BF9C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CDC085-4F04-4AC3-B962-61C854BF9C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CDC085-4F04-4AC3-B962-61C854BF9C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CDC085-4F04-4AC3-B962-61C854BF9C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9551EB7-8EA0-4AF5-9CD9-53896A270F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9551EB7-8EA0-4AF5-9CD9-53896A270F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9551EB7-8EA0-4AF5-9CD9-53896A270F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9551EB7-8EA0-4AF5-9CD9-53896A270F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C46C8E-CF53-4A0E-9942-F35B247910DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C46C8E-CF53-4A0E-9942-F35B247910DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C46C8E-CF53-4A0E-9942-F35B247910DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C46C8E-CF53-4A0E-9942-F35B247910DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C64271-3BC4-4507-B407-08EB36327790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C64271-3BC4-4507-B407-08EB36327790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C64271-3BC4-4507-B407-08EB36327790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C64271-3BC4-4507-B407-08EB36327790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7A25DB-D793-45EA-830F-2FA5159CBDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7A25DB-D793-45EA-830F-2FA5159CBDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7A25DB-D793-45EA-830F-2FA5159CBDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7A25DB-D793-45EA-830F-2FA5159CBDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC5F714-9552-4F09-8FFE-4D3330C6A612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC5F714-9552-4F09-8FFE-4D3330C6A612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC5F714-9552-4F09-8FFE-4D3330C6A612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC5F714-9552-4F09-8FFE-4D3330C6A612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

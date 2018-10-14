@@ -1,0 +1,39 @@
+D:\TFI\Mapper\bin\Debug\DAL.dll
+D:\TFI\Mapper\bin\Debug\Modelo.dll
+D:\TFI\Mapper\bin\Debug\Seguridad.dll
+D:\TFI\Mapper\bin\Debug\DAL.pdb
+D:\TFI\Mapper\bin\Debug\DAL.xml
+D:\TFI\Mapper\bin\Debug\Modelo.pdb
+D:\TFI\Mapper\bin\Debug\Modelo.xml
+D:\TFI\Mapper\bin\Debug\Seguridad.pdb
+D:\TFI\Mapper\bin\Debug\Seguridad.xml
+D:\TFI\Mapper\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+D:\TFI\Mapper\obj\Debug\Datos.vbproj.GenerateResource.Cache
+D:\TFI\Mapper\bin\Debug\Datos.dll
+D:\TFI\Mapper\bin\Debug\Datos.pdb
+D:\TFI\Mapper\bin\Debug\Datos.xml
+D:\TFI\Mapper\obj\Debug\Datos.Resources.resources
+D:\TFI\Mapper\obj\Debug\Datos.dll
+D:\TFI\Mapper\obj\Debug\Datos.xml
+D:\TFI\Mapper\obj\Debug\Datos.pdb
+D:\Documents\TFI\Mapper\bin\Debug\Datos.dll
+D:\Documents\TFI\Mapper\bin\Debug\Datos.pdb
+D:\Documents\TFI\Mapper\bin\Debug\Datos.xml
+D:\Documents\TFI\Mapper\bin\Debug\DAL.dll
+D:\Documents\TFI\Mapper\bin\Debug\Modelo.dll
+D:\Documents\TFI\Mapper\bin\Debug\Seguridad.dll
+D:\Documents\TFI\Mapper\bin\Debug\DAL.pdb
+D:\Documents\TFI\Mapper\bin\Debug\DAL.xml
+D:\Documents\TFI\Mapper\bin\Debug\Modelo.pdb
+D:\Documents\TFI\Mapper\bin\Debug\Modelo.xml
+D:\Documents\TFI\Mapper\bin\Debug\Seguridad.pdb
+D:\Documents\TFI\Mapper\bin\Debug\Seguridad.xml
+D:\Documents\TFI\Mapper\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+D:\Documents\TFI\Mapper\obj\Debug\Datos.Resources.resources
+D:\Documents\TFI\Mapper\obj\Debug\Datos.vbproj.GenerateResource.Cache
+D:\Documents\TFI\Mapper\obj\Debug\Datos.dll
+D:\Documents\TFI\Mapper\obj\Debug\Datos.xml
+D:\Documents\TFI\Mapper\obj\Debug\Datos.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Mapper\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Mapper\obj\Debug\Datos.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Mapper\obj\Debug\Datos.vbproj.GenerateResource.Cache

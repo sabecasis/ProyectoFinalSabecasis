@@ -1,0 +1,15 @@
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\bin\Release\Seguridad.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\bin\Release\Seguridad.pdb
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\bin\Release\Seguridad.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.Resources.resources
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.vbproj.GenerateResource.Cache
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.dll
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.xml
+c:\Users\sasu\documents\visual studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\DAL.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\Modelo.dll
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\DAL.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\DAL.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\Modelo.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\bin\Release\Modelo.xml
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\obj\Release\Seguridad.vbprojResolveAssemblyReference.cache

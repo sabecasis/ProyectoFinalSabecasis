@@ -1,0 +1,207 @@
+﻿body{
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+#logo{
+    width:175px;
+    height:80px;
+    display:inline-block;
+}
+
+#navegacion {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	margin: 0 auto;
+    background: linear-gradient(#0c9839, #29a323, #0c9839);
+    border-bottom:solid;
+    border-bottom-color:#808080;
+    border-bottom-width:3px;
+    border-top:solid;
+    border-top-color:#808080;
+    border-top-width:3px;
+}
+
+#navegacion ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navegacion ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#navegacion ul li a {
+	float: left;
+	display: block;
+	height: 35px;
+	margin-right: 3px;
+	padding: 0 20px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 10px;
+	text-decoration: none;
+	color: #dddbd5;	
+	font-weight: bold;
+	outline: none;
+}
+
+#navegacion li a:hover, #navegacion li .current {
+	color: #dddbd5;
+    background-color:#09323d;
+}
+
+.limpiador{padding:0; border-style:none; clear:both; }
+
+aside{
+    display:inline-block;
+    width:200px;
+    height:100%;
+    top:151px;
+    background: linear-gradient(#808080, white);
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:860;
+    visibility:hidden;
+}
+
+#background{
+    position:fixed;
+    z-index:0;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%
+}
+
+#background img{
+    width:100%;
+    z-index:0;
+}
+
+#menuHorizontal{
+    margin-left:20px;
+    vertical-align:central;
+}
+
+#menuHorizontal a{
+    display:inline-block;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:10px;
+    padding:3px;
+}
+
+#contenidoCabecera{
+   position:fixed;
+    width:100%;
+    height:151px;
+    background-color:white;
+    z-index:900;
+    top:0;
+}
+
+#cabecera{
+    width:100%;
+    height:75px;
+    outline-offset:0px;
+    padding:0px;
+    margin-bottom:20px;
+}
+
+#contenedor {
+    width:550px;
+    padding-left:50px;
+    padding-top:20px;
+    text-align:left;
+    margin: 0 auto;
+    margin-top:151px;
+    background: linear-gradient(#dddbd5,white);
+    display:block;
+    overflow:auto;
+    height: 100%;
+    position:absolute;
+    left:370px;
+    opacity:0.95;
+}
+
+#contenedor span{
+    color:black;
+    text-align:left;
+    font-weight:bold;
+}
+
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:400px;
+    font-size:36px;
+    color:#5975e0;
+}
+
+#grupo1{
+    float:right;
+    height:inherit;
+}
+
+#contenedorIdioma{
+    display:inline-block;
+    margin-left:10px;
+    padding-left:20px;
+}
+
+#contenedorBusqueda{
+    display:inline-block;
+    margin-left:10px;
+    padding-left:20px;
+}
+
+#idiomadiv{
+    display:inline-block;
+    vertical-align:bottom;
+    margin-top:20px;
+    margin-left:10px;
+    font-family:Arial;
+    font-size:11px;
+}
+
+[id$='barra']{
+    background-color:#3598e1;
+    width:100%;
+    height:3px;
+    margin-bottom:5px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+#disclaimer{
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+				position: absolute;				
+				background-color: #64a4e9;
+				color: black;
+				/*opacity: .4;
+				filter: alpha(opacity = 50);*/
+                padding:40px;
+                overflow-y:scroll;
+}
+
+
+
+#hterminos{
+    color:black;
+}

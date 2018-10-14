@@ -1,0 +1,49 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="admin.master.vb" Inherits="TFI.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../static/Admin.css" rel="stylesheet" />
+    <script src="../scripts/multiidioma.js"></script>
+    <script src="../scripts/abmscripts.js"></script>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+     <div id="contenidoCabecera">
+    <div id="cabecera">
+        <img src="/static/logotipo.png" id="logo" />      
+          <div id="idiomadiv">
+           <div id="contenedorIdioma"><span id="sidioma">Idioma: </span> <select id="idiomaSeleccionado" onchange="seleccionarIdioma();"></select></div>
+            <div id="contenedorBusqueda"><span id="sbuscarformulario">Buscar formulario: </span> <input type="text" id="buscarForm"/><input type="button" id="buscarBtn" value="Buscar"  onclick="window.location.href = '/Cliente/BusquedaFormulario.aspx?busqueda=' + document.getElementById('buscarForm').value;" /></div>
+          </div>
+        <div id="grupo1">
+             <div id="menuHorizontal">
+                <a href="/Cliente/Ayuda.aspx" id="aayuda">Ayuda</a>
+                <a href="/Cliente/Registrarse.aspx" id="aregistrarse">Registrarse</a>
+                <a href="/Cliente/Contacto.aspx" id="acontacto">Contacto</a>
+                <a href="/Cliente/FichasDeOpinion.aspx" id="afichas">Dejenos su opnion</a>
+                 <a href="/Cliente/PoliticasDeSeguridad.aspx" id="aseguridad">Política de seguridad</a>
+            </div>
+        </div>       
+    </div>
+    <div id="navegacion">
+        <ul id="menuNavegacion">
+        </ul>
+      <div class="limpiador"></div>
+    </div>
+        </div>
+        <asp:scriptmanager runat="server" EnablePageMethods="true">   
+         </asp:scriptmanager>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        
+    </form>
+</body>
+</html>

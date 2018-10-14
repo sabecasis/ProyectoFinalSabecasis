@@ -1,0 +1,2 @@
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Servicios\obj\Debug\Servicios.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Servicios\obj\Debug\Servicios.vbproj.GenerateResource.Cache

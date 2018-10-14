@@ -1,0 +1,33 @@
+D:\TFI\Seguridad\bin\Debug\Seguridad.dll
+D:\TFI\Seguridad\bin\Debug\Seguridad.pdb
+D:\TFI\Seguridad\bin\Debug\Seguridad.xml
+D:\TFI\Seguridad\bin\Debug\Modelo.dll
+D:\TFI\Seguridad\bin\Debug\Modelo.pdb
+D:\TFI\Seguridad\bin\Debug\Modelo.xml
+D:\TFI\Seguridad\obj\Debug\Seguridad.vbprojResolveAssemblyReference.cache
+D:\TFI\Seguridad\obj\Debug\Seguridad.Resources.resources
+D:\TFI\Seguridad\obj\Debug\Seguridad.vbproj.GenerateResource.Cache
+D:\TFI\Seguridad\obj\Debug\Seguridad.dll
+D:\TFI\Seguridad\obj\Debug\Seguridad.xml
+D:\TFI\Seguridad\obj\Debug\Seguridad.pdb
+D:\TFI\Seguridad\bin\Debug\DAL.dll
+D:\TFI\Seguridad\bin\Debug\DAL.pdb
+D:\TFI\Seguridad\bin\Debug\DAL.xml
+D:\Documents\TFI\Seguridad\bin\Debug\Seguridad.dll
+D:\Documents\TFI\Seguridad\bin\Debug\Seguridad.pdb
+D:\Documents\TFI\Seguridad\bin\Debug\Seguridad.xml
+D:\Documents\TFI\Seguridad\bin\Debug\DAL.dll
+D:\Documents\TFI\Seguridad\bin\Debug\Modelo.dll
+D:\Documents\TFI\Seguridad\bin\Debug\DAL.pdb
+D:\Documents\TFI\Seguridad\bin\Debug\DAL.xml
+D:\Documents\TFI\Seguridad\bin\Debug\Modelo.pdb
+D:\Documents\TFI\Seguridad\bin\Debug\Modelo.xml
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.vbprojResolveAssemblyReference.cache
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.Resources.resources
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.vbproj.GenerateResource.Cache
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.dll
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.xml
+D:\Documents\TFI\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\obj\Debug\Seguridad.vbprojResolveAssemblyReference.cache
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\obj\Debug\Seguridad.Resources.resources
+C:\Users\sasu\Documents\Visual Studio 2013\Projects\TFI\Seguridad\obj\Debug\Seguridad.vbproj.GenerateResource.Cache
